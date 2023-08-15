@@ -53,7 +53,7 @@ const List = () => {
                                     data.map((item, index) => {
                                         return (
                                             <tr key={index}>
-                                                <td><img className="w-25" src={item['Img']} alt="Product" /></td>
+                                                <td><img className="w-40" src={item['Img']} alt="Product" /></td>
                                                 <td>{item['ProductName']}</td>
                                                 <td>{item['ProductCode']}</td>
                                                 <td>{item['UnitPrice']}</td>
